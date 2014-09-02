@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<all>
+  <group name="phd">
+    <member degree="phd" year="103" graduate="0">
+        <name>簡廷軒</name>
+        <thesis>
+          <name></name>
+          <ref><![CDATA[]]></ref>
+        </thesis>
+      </member>
+    <member degree="phd" year="99" graduate="0">
+      <name>張仁傑</name>
+      <thesis>
+        <name></name>
+        <ref><![CDATA[]]></ref>
+      </thesis>
+    </member>
+    <member degree="phd" year="98" graduate="0">
+      <name>陳家榮</name>
+      <thesis>
+        <name></name>
+        <ref><![CDATA[]]></ref>
+      </thesis>
+    </member>
+    <member degree="phd" year="97" graduate="1">
+      <name>李承諭</name>
+      <thesis>
+        <name>應用於嵌入式處理器之暫存器分配技術</name>
+        <ref><![CDATA[http://handle.ncl.edu.tw/11296/ndltd/96179969272138605194]]></ref>
+      </thesis>
+    </member>
+    <member degree="phd" year="95" graduate="1">
+      <name>林宗彥</name>
+      <thesis>
+        <name>應用於嵌入式系統的程式碼最佳化技術</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22099CCU00392023%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2014.3">MOXA</status>
+    </member>
+    <member degree="phd" year="94" graduate="1">
+      <name>陳志遠</name>
+      <thesis>
+        <name>應用於三角積分調變器之整合系統至運算放大器電路階段自動化合成設計</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22099CCU09392015%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2011.8">Ambarella</status>
+    </member>
+    <member degree="phd" year="93" graduate="2">
+      <name>程冠衛</name>
+      <thesis>
+        <name></name>
+        <ref><![CDATA[]]></ref>
+      </thesis>
+    </member>
+  </group>
+  <group name="103">
+    <member degree="master" year="103" graduate="0">
+      <name>林函儀</name>
+      <thesis>
+        <name></name>
+        <ref><![CDATA[]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="103" graduate="0">
+      <name>盧聖軒</name>
+      <thesis>
+        <name></name>
+        <ref><![CDATA[]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="103" graduate="0">
+      <name>蘇國禎</name>
+      <thesis>
+        <name></name>
+        <ref><![CDATA[]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="103" graduate="0">
+      <name>戴子為</name>
+      <thesis>
+        <name></name>
+        <ref><![CDATA[]]></ref>
+      </thesis>
+    </member>
+  </group>
+
+  <group name="102">
+    <member degree="master" year="102" graduate="0">
+      <name>蔡佾叡</name>
+      <thesis>
+        <name></name>
+        <ref><![CDATA[]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="102" graduate="0">
+      <name>花琨詠</name>
+      <thesis>
+        <name></name>
+        <ref><![CDATA[]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="102" graduate="0">
+      <name>王柏凱</name>
+      <thesis>
+        <name></name>
+        <ref><![CDATA[]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="102" graduate="0">
+      <name>林建甫</name>
+      <thesis>
+        <name></name>
+        <ref><![CDATA[]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="102" graduate="1">
+      <name>簡廷軒</name>
+      <status updated="-">見博班欄位</status>
+    </member>
+  </group>
+  <group name="101">
+    <member degree="master" year="101" graduate="1">
+      <name>謝佩樺</name>
+      <thesis>
+        <name>在GPU上平行化碰撞偵測</name>
+        <ref><![CDATA[http://handle.ncl.edu.tw/11296/ndltd/51650340558952798212]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="101" graduate="1">
+      <name>吳敬輿</name>
+      <thesis>
+        <name>點對點網路地址轉換技術</name>
+        <ref><![CDATA[http://handle.ncl.edu.tw/11296/ndltd/60253177434932363663]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="101" graduate="1">
+      <name>蘇意婷</name>
+      <thesis>
+        <name>智慧化電子商務平台</name>
+        <ref><![CDATA[http://handle.ncl.edu.tw/11296/ndltd/34115652933828300997]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="101" graduate="1">
+      <name>劉昆和</name>
+      <thesis>
+        <name>有效率的選擇性預取方法</name>
+        <ref><![CDATA[http://handle.ncl.edu.tw/11296/ndltd/31884663594361282512]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="101" graduate="1">
+      <name>謝智威</name>
+      <thesis>
+        <name>2D多邊形節能開槽路徑</name>
+        <ref><![CDATA[http://handle.ncl.edu.tw/11296/ndltd/23972729063574297945]]></ref>
+      </thesis>
+    </member>
+  </group>
+  <group name="100">
+    <member degree="master" year="100" graduate="1">
+      <name>黃炯家</name>
+      <thesis>
+        <name>相變記憶體省電優化</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22101CCU00392045%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2014.3">威綸科技</status>
+    </member>
+    <member degree="master" year="100" graduate="1">
+      <name>劉世華</name>
+      <thesis>
+        <name>在GPU上使用CUDA處理稀疏矩陣 計算函式</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22101CCU00392050%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="100" graduate="1">
+      <name>楊智偉</name>
+      <thesis>
+        <name>在GPU上使用CUDA處理稀疏建構函式</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22101CCU00392048%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="100" graduate="1">
+      <name>劉易昇</name>
+      <thesis>
+        <name>基於點對點技術的電子商務平台</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22101CCU00392049%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2014.3">中華電信數據通信分公司</status>
+    </member>
+    <member degree="master" year="100" graduate="1">
+      <name>吳佑璋</name>
+      <thesis>
+        <name>類比電路運算放大器 自動繞線</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22101CCU00392052%22.&searchmode=basic]]></ref>
+      </thesis> 
+      <status updated="2014.3">XPEC Entertainment</status>
+    </member>
+  </group>
+  <group name="99">
+    <member degree="master" year="99" graduate="1">
+      <name>劉美蘭</name>
+      <thesis>
+        <name>基於混合型儲存設備下針對雲端多媒體應用之動態資料遷移</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22099CCU00392153%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2013.4">合勤</status>
+    </member>
+    <member degree="master" year="99" graduate="1">
+      <name>蔡欣佩</name>
+      <thesis>
+        <name>基於雲端多媒體運算環境之混合型儲存設備系統設計與實作</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22100CCU00392053%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="99" graduate="1">
+      <name>詹芳懿</name>
+      <thesis>
+        <name>基於非統一記憶體存取架構下虛擬化系統之平行化技術</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22099CCU00392152%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2013.4">鴻海</status>
+    </member>
+    <member degree="master" year="99" graduate="1">
+      <name>鍾岳家</name>
+      <thesis>
+        <name>可執行檔轉譯器之還原被註釋的程式變數</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22100CCU00392054%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+  </group>
+  <group name="98">
+    <member degree="master" year="98" graduate="1">
+      <name>姜博浩</name>
+      <thesis>
+        <name>類比電路自動化擺放工具</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22099CCU00392055%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="98" graduate="1">
+      <name>郭俊麒</name>
+      <thesis>
+        <name>多核心架構之指令層級功率模型</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22099CCU00392058%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="98" graduate="1">
+      <name>黃淑敏</name>
+      <thesis>
+        <name>多核心架構下之動態、可靠及適應性的功率最佳化策略</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22099CCU00392059%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="98" graduate="1">
+      <name>楊雙竹</name>
+      <thesis>
+        <name>結合作業系統及架構之降溫排程演算法</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22099CCU00392054%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2013.4">中華電信研究所</status>
+    </member>
+    <member degree="master" year="98" graduate="1">
+      <name>郭文祈</name>
+      <thesis>
+        <name>平行化防碰撞偵測使用 GPU</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22101CCU00392014%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+  </group>
+  <group name="97">
+    <member degree="master" year="97" graduate="1">
+      <name>蘇家賢</name>
+      <thesis>
+        <name>以新指令集編碼與解碼方法擴增暫存器的最佳化技術</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22098CCU05392049%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="97" graduate="1">
+      <name>陳群元</name>
+      <thesis>
+        <name>在需求分頁快閃記憶體上以編譯器輔助程式碼重排之技術</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22098CCU05392048%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2010.9">Ayecom</status>
+    </member>
+    <member degree="master" year="97" graduate="1">
+      <name>陳群霈</name>
+      <thesis>
+        <name>針對功能元件功率密度問題之指令轉換策略</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22098CCU05392050%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2011.12">MStar</status>
+    </member>
+  </group>
+  <group name="96">
+    <member degree="master" year="96" graduate="1">
+      <name>張建文</name>
+      <thesis>
+        <name>以幾何規劃法自動且最佳化合成雙級運算放大器</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22097CCU05392055%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="96" graduate="1">
+      <name>黃志棋</name>
+      <thesis>
+        <name>結合軟體與硬體之電源閘控技術</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22097CCU05392053%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="96" graduate="1">
+      <name>湯媛喬</name>
+      <thesis>
+        <name>多核心架構下熱能感測暨負載平衡策略</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22097CCU05392057%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="96" graduate="1">
+      <name>石蕙慈</name>
+      <thesis>
+        <name>針對交換式記憶體效能病狀之優先權排程方法</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22097CCU05392058%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2009.9">Compal</status>
+    </member>
+    <member degree="master" year="96" graduate="1">
+      <name>林洪聖</name>
+      <thesis>
+        <name>以RISC處理器為基礎的低成本暫存器擴增技術</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22097CCU05392059%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+  </group>
+  <group name="95">
+    <member degree="master" year="95" graduate="1">
+      <name>邱仲頤</name>
+      <thesis>
+        <name>多執行緒處理器之降溫排程演算法</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22096CCU05392176%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2008.9">Garmin</status>
+    </member>
+    <member degree="master" year="95" graduate="1">
+      <name>王泰岳</name>
+      <thesis>
+        <name>擴展三角積分調變器之動態範圍及電路設計</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22096CCU05392147%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2014.3">佳世達</status>
+    </member>
+    <member degree="master" year="95" graduate="1">
+      <name>李承諭</name>
+      <thesis>
+        <name>以編譯器最佳化犧牲者快取之低功率快取技術</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22096CCU05392131%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="-">見博班欄位</status>
+    </member>
+    <member degree="master" year="95" graduate="1">
+      <name>陳宏靖</name>
+      <thesis>
+        <name>以 VLIW 為基礎的貼心處理器之程式碼緊密壓縮</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22096CCU05392174%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="95" graduate="1">
+      <name>陳韋廷</name>
+      <thesis>
+        <name>原始碼熱能感測器</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22096CCU05392179%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2006.9">宏碁</status>
+    </member>
+  </group>
+  <group name="94">
+    <member degree="master" year="94" graduate="1">
+      <name>薛琮樺</name>
+      <thesis>
+        <name>以VLIW 為基礎的貼心處理器之 編譯器最佳化</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22096CCU05392007%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2011.5">Marvell</status>
+    </member>
+    <member degree="master" year="94" graduate="1">
+      <name>洪敏進</name>
+      <thesis>
+        <name>以VLIW為基礎的貼心處理器之暫存器配置</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22095CCU05392026%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2014.3">MediaTek</status>
+    </member>
+    <member degree="master" year="94" graduate="1">
+      <name>何梓薇</name>
+      <thesis>
+        <name>針對多重快取下科學運算的溫度感知最佳化</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22095CCU05392053%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="94" graduate="1">
+      <name>張博凱</name>
+      <thesis>
+        <name>前瞻性溫度感知暫存器配置</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22095CCU05392083%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2014.3">合勤</status>
+    </member>
+    <member degree="master" year="94" graduate="2">
+      <name>王舜生</name>
+    </member>
+  </group>
+  <group name="93">
+    <member degree="master" year="93" graduate="1">
+      <name>林宗彥</name>
+      <thesis>
+        <name>應用GCC編譯工具組於建立可執行程式之轉譯平台</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22095CCU05392009%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="-">見博班欄位</status>
+    </member>
+    <member degree="master" year="93" graduate="1">
+      <name>陳志遠</name>
+      <status updated="-">見博班欄位</status>
+    </member>
+    <member degree="master" year="93" graduate="1">
+      <name>曾令驊</name>
+      <thesis>
+        <name>編譯器對 UniCore 處理器之支援</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22094CCU05392015%22.&searchmode=basic]]></ref>
+      </thesis>
+      <status updated="2014.3">晶心</status>
+    </member>
+    <member degree="master" year="93" graduate="1">
+      <name>吳宏益</name>
+      <thesis>
+        <name>使用Wattch模擬器之溫度感測演算法及分析</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22094CCU05392074%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="93" graduate="2">
+      <name>陳薪圳</name>
+    </member>
+  </group>
+  <group name="92">
+    <member degree="master" year="92" graduate="1">
+      <name>蕭松浩</name>
+      <thesis>
+        <name>即時嵌入式應用的關鍵執行路徑之低功率最佳化技術</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22093CCU05392028%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="92" graduate="1">
+      <name>王紹洋</name>
+      <thesis>
+        <name>壓縮連續重覆出現指令達成程式碼壓縮</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22093CCU00392001%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="92" graduate="1">
+      <name>馬秀華</name>
+      <thesis>
+        <name>應用GCC編譯工具組於x86至ARM程式碼之轉譯技術</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22093CCU05392027%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="92" graduate="2">
+      <name>蔣政雄</name>
+    </member>
+  </group>
+  <group name="91">
+    <member degree="master" year="91" graduate="1">
+      <name>林藍芯</name>
+      <thesis>
+        <name>應用於多處理器嵌入式系統創新的軟硬體切割</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22092CCU00392048%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="91" graduate="1">
+      <name>陶靖揚</name>
+      <thesis>
+        <name>從TMSC320C54X到ADSP-218X的二元程式碼轉換器</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22092CCU00392079%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="91" graduate="1">
+      <name>張桂慈</name>
+      <thesis>
+        <name>從TMS320C54x到ADSP-218x以翦影為導向的記憶體重新映射</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22092CCU00392083%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="91" graduate="1">
+      <name>洪毓婷</name>
+      <thesis>
+        <name>俱電源感知指令與重排程省電編譯技術</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22092CCU00392091%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+    <member degree="master" year="91" graduate="1">
+      <name>魏志榮</name>
+      <thesis>
+        <name>單晶片多核處理器之特殊指令編譯</name>
+        <ref><![CDATA[http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22092CCU00392092%22.&searchmode=basic]]></ref>
+      </thesis>
+    </member>
+  </group>
+</all>

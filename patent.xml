@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<all>
+  <tw>
+    <patent>
+      <name>自動調整提高動態範圍之三角積分調變器架構及方法 AN AUTOMATIC ADAPTIVE METHOD AND STRUCTURE FOR IMPROVING DYNAMIC RANGE OF SIGMA-DELTA MODULATORS</name>
+      <number>201025872/I369861</number>
+      <filing-date>2008/12/30</filing-date>
+      <issue-date>2010/07/01</issue-date>
+      <inventors>李順裕, 張榮貴, 陳志遠, 洪家華</inventors>
+      <assignee>國立中正大學</assignee>
+    </patent>
+    <patent>
+      <name>編譯器中省電最佳化排程之方法</name>
+      <number>200801925/I309002</number>
+      <filing-date>2006/06/23</filing-date>
+      <issue-date>2008/01/01</issue-date>
+      <inventors>張榮貴, 林宗彥</inventors>
+      <assignee>國立中正大學</assignee>
+    </patent>
+    <patent>
+      <name>處理指令集的方法與系統 METHOD AND SYSTEM FOR PROCESSING AN INSTRUCTION SET</name>
+      <number>200707281</number>
+      <filing-date>2005/08/11</filing-date>
+      <issue-date>2007/02/16</issue-date>
+      <inventors>張榮貴, 王紹洋</inventors>
+      <assignee>國立中正大學</assignee>
+    </patent>
+  </tw>
+  <us>
+    <patent>
+      <name>Power-aware compiling method</name>
+      <number>US 8108850 B2</number>
+      <filing-date>5 Dec 2006</filing-date>
+      <issue-date>31 Jan 2012</issue-date>
+      <inventors>Rong-Guey Chang, Tzong-Yen Lin</inventors>
+      <assignee>National Chung Cheng University</assignee>
+    </patent>
+    <patent>
+      <name>RISC processor register expansion method</name>
+      <number>US 2011/0296140 A1</number>
+      <filing-date>25 May 2010</filing-date>
+      <issue-date>1 Dec 2011</issue-date>
+      <inventors>Rong-Guey Chang, Yuan-Shin Hwang, Hong-Sheng Lin</inventors>
+      <assignee>National Chung Cheng University</assignee>
+    </patent>
+    <patent>
+      <name>Sigma-delta modulator architecture capable of automatically improving dynamic range method for the same</name>
+      <number>US 7800524 B2</number>
+      <filing-date>28 Apr 2009</filing-date>
+      <issue-date>21 Sep 2010</issue-date>
+      <inventors>Shuenn-Yuh Lee, Rong-Guey Chang, Chih-Yuan Chen, Jia-Hua Hong</inventors>
+      <assignee>National Chung Cheng University</assignee>
+    </patent>
+    <patent>
+      <name>Method and system for processing an instruction set</name>
+      <number>US 7334113 B2</number>
+      <filing-date>7 Sep 2005</filing-date>
+      <issue-date>19 Feb 2008</issue-date>
+      <inventors>Rong-Guey Chang, Shao-Yang Wang</inventors>
+      <assignee>National Chung Cheng University</assignee>
+    </patent>
+  </us>
+</all>

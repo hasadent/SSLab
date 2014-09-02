@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>專利 - 張榮貴教授</title>
+	<link rel="stylesheet" type="text/css" href="main.css" charset="UTF-8"  />
+</head>
+<body>
+	<div id="main">
+		<div id="top"></div>
+		<div id="nav"></div>
+		<div id="outer">
+			<div id="nav_side"></div>
+			<div id="content">
+				<noscript>Your browser does not support JavaScript!</noscript>
+				<div>
+					<h1>US patents</h1>
+					<ol id="us_out" />   
+				</div>
+				<div>
+					<h1>中華民國專利</h1>
+					<ol id="tw_out" />   
+				</div>
+			</div>
+			<div id="lastupdated">Last updated: August 8, 2012</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="main.js" charset="UTF-8"></script>
+<script type="text/javascript" src="nav.js" charset="UTF-8"></script>
+<script type="text/javascript">
+
+var xmlDoc = openXML("patent.xml");
+var us = xmlDoc.getElementsByTagName("us");
+var tw = xmlDoc.getElementsByTagName("tw");
+
+
+var prefix_tw = ["", "專利號碼: ", "申請日: ", "公告日: ", "發明人: ", "申請人: "];
+var prefix_us = ["", "Patent no.: ", "Filing date: ", "Issue date: ", "Inventors: ", "Original assignee: "];
+build_patent(us[0].getElementsByTagName("patent"), document.getElementById("us_out"), prefix_us);
+build_patent(tw[0].getElementsByTagName("patent"), document.getElementById("tw_out"), prefix_tw);
+
+function build_patent(data, out, prefix)
+{
+  for (var i = 0; i < data.length; i++)
+  {
+    var name        = GE(data[i], "name");
+    var number      = GE(data[i], "number");
+    var filing_date = GE(data[i], "filing-date");
+    var issue_date  = GE(data[i], "issue-date");
+    var inventors   = GE(data[i], "inventors");
+    var assignee    = GE(data[i], "assignee");
+    
+    var ul = document.createElement("ul");
+    create_li_and_append(prefix[1] + number, ul);
+    create_li_and_append(prefix[3] + issue_date, ul);
+    create_li_and_append(prefix[4] + inventors, ul);
+    create_li_and_append(prefix[5] + assignee, ul);
+    var li = document.createElement("li");
+    li.innerHTML = prefix[0] + name;
+    li.appendChild(ul);
+    out.appendChild(li);
+  }
+}
+
+function create_li_and_append(data, to)
+{
+  var li = document.createElement("li");
+  li.innerHTML = data;
+  to.appendChild(li);
+}
+
+</script>
+
+</body>
+</html>
+

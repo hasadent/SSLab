@@ -1,0 +1,144 @@
+body{
+	background-color: LightCyan;
+	font-size: medium;
+}
+
+h1 {
+	width: 100%;
+	border-bottom: 1px solid Silver;
+	font-size: large;
+}
+
+div#top{
+	background-image: url(images/top-1024px.jpg); 
+	background-repeat: no-repeat;
+	width:  1004px;
+	height: 249px;
+	padding: 0px 10px 0px 10px;
+	margin-top: -10px;
+	margin-bottom: 0px;
+	border:   1px solid DimGray;
+}
+
+div#main{
+	width: 1004px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#nav{
+	float: left;
+	width: 100%;
+	padding: 0px;
+}
+
+div#outer{
+	float: left;
+	width: 100%;
+	background-color: GhostWhite;
+	border-left:   1px solid DimGray;
+	border-right:  1px solid DimGray;
+	border-bottom: 1px solid DimGray;
+	padding: 10px;
+}
+
+div#nav_side{
+	float: left;
+	width: 100px;
+	padding: 15px;
+	text-align: left;
+}
+
+div#content {
+	float: left;
+	width: 830px;
+	padding: 20px 20px 20px 20px;
+	margin:  0px;
+	border-left: 1px dashed DimGray;
+}
+
+
+div#nav{
+	padding:  0px 10px 0px 10px;
+	border-left:    1px solid DimGray;
+	border-right:   1px solid DimGray;
+	background-color: SaddleBrown;
+	vertical-align: bottom;
+}
+
+ul.nav{
+	width:  100%;
+	height: 30px;
+	line-height:  30px;
+	padding:  0px 14px 0px 8px;
+	margin: 0px 0px 0px 0px;
+
+}
+
+li.nav{
+	float: left;
+	list-style: none outside none;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+a.nav{
+	display: block;
+	width: 140px;
+	text-align:   center;
+	margin-right: 3px;
+	text-decoration: none;
+	color: DarkSlateGray;
+}
+
+a.nav-all{
+	color: GhostWhite;
+}
+
+a.nav-self{
+	background-color: GhostWhite;
+}
+
+a.nav_side{
+	text-decoration: none;
+	color: SlateGray;
+	font-size: small;
+}
+
+a.external
+{
+	background: url(images/external-10px.png) center right no-repeat;
+	padding: 0 13px 0 0px;
+	text-decoration: none;
+}
+a.external:link 
+{
+	color: DodgerBlue;
+}
+
+a.external:visited 
+{
+	color: DodgerBlue;
+}
+
+#mail{
+	background-image: url(images/mail.png);
+	background-repeat: no-repeat;
+	background-position: 35px -4px; 
+	width: 230px;
+}
+
+#lastupdated{
+	text-align: right;
+	font-size: small;
+}
+
+.rgc{
+	background-color: AntiqueWhite;
+}
+
+
+.fb-like span, .fb-like iframe {
+    height: 25px!important;
+    width: 150px!important
+}

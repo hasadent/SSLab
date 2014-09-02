@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PAPER>
+<JP>
+	<TITLE>Thermal-aware code transformation across functional units</TITLE>
+	<AUTHOR>Chia-Jung Chen, Rong-Guey Chang</AUTHOR>
+	<JOURNAL>Accepted by Concurrency and Computation: Practice and Experience</JOURNAL>
+	<VOLUME></VOLUME>
+	<NUMBER></NUMBER>
+	<PAGES></PAGES>
+	<MONTH></MONTH>
+	<YEAR>2014</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>Power-Aware Code Scheduling Assisted with Power Gating and DVS</TITLE>
+	<AUTHOR>Cheng-Yu Lee, Tzong-Yen Lin, Rong-Guey Chang</AUTHOR>
+	<JOURNAL>Future Generation Computer System</JOURNAL>
+	<VOLUME>34</VOLUME>
+	<NUMBER></NUMBER>
+	<PAGES>66-75</PAGES>
+	<MONTH>May</MONTH>
+	<YEAR>2014</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>Instruction scheduling and transformation for a VLIW unified reduced instruction set computer/digital signal processor processor with shared register architecture</TITLE>
+	<AUTHOR>Cheng-Yu Lee, Min-Chin Hung, Rong-Guey Chang</AUTHOR>
+	<JOURNAL>Concurrency and Computation: Practice and Experience</JOURNAL>
+	<VOLUME>26</VOLUME>
+	<NUMBER>1</NUMBER>
+	<PAGES>134-151</PAGES>
+	<MONTH>January</MONTH>
+	<YEAR>2014</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>Common-Centroid Capacitor Layout Generation Considering Device Matching and Parasitic Minimization</TITLE>
+	<AUTHOR>Mark Po-Hung Lin, Yi-Ting He, Vincent Wei-Hao Hsiao, Rong-Guey Chang, Shuenn-Yuh Lee</AUTHOR>
+	<JOURNAL>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems</JOURNAL>
+	<VOLUME>32</VOLUME>
+	<NUMBER>4</NUMBER>
+	<PAGES>991-1002</PAGES>
+	<MONTH>July</MONTH>
+	<YEAR>2013</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>An Efficient Algorithm for Collision Detection on Five-Axis Machining</TITLE>
+	<AUTHOR>R.S. Lin, Rong-Guey Chang, J.L. Yan, H.S. Chiu</AUTHOR>
+	<JOURNAL>Applied Mechanics and Materials</JOURNAL>
+	<VOLUME>328</VOLUME>
+	<NUMBER></NUMBER>
+	<PAGES>158-162</PAGES>
+	<MONTH>June</MONTH>
+	<YEAR>2013</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>Multi-level simultaneous multithreading scheduling to reduce the temperature of register files</TITLE>
+	<AUTHOR>Chih-Yuan Chen, Jhong-Yi Ciou, and Rong-Guey Chang</AUTHOR>
+	<JOURNAL>Concurrency and Computation: Practice and Experience</JOURNAL>
+	<VOLUME>24</VOLUME>
+	<NUMBER>11</NUMBER>
+	<PAGES>1296-1316</PAGES>
+	<MONTH>August</MONTH>
+	<YEAR>2012</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>Automated synthesis of discrete-time sigma-delta modulators from system architecture to circuit netlist</TITLE>
+	<AUTHOR>Shuenn-Yuh Lee, Chih-Yuan Chen, Jia-Hua Hong, Rong-Guey Chang, and Mark Po-Hung Lin</AUTHOR>
+	<JOURNAL>Microelectronics Journal</JOURNAL>
+	<VOLUME>42</VOLUME>
+	<NUMBER>2</NUMBER>
+	<PAGES>347-357</PAGES>
+	<MONTH>February</MONTH>
+	<YEAR>2011</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>DisIRer: Converting a Retargetable Compiler into a Multi-Platform Binary Translator</TITLE>
+	<AUTHOR>Yuan-Shin Hwang, Tzong-Yen Lin, and Rong-Guey Chang</AUTHOR>
+	<JOURNAL>ACM Transactions on Architecture and Code Optimization</JOURNAL>
+	<VOLUME>7</VOLUME>
+	<NUMBER>4</NUMBER>
+	<PAGES>18:1-18:36</PAGES>
+	<MONTH>December</MONTH>
+	<YEAR>2010</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>A Wide Dynamic-Range Sigma-Delta Modulator with Adaptive Feed-Forward Coefficients</TITLE>
+	<AUTHOR>Rong-Guey Chang, Chih-Yuan Chen, Jia-Hua Hong, and Shuenn-Yuh Lee</AUTHOR>
+	<JOURNAL>Circuits, Devices &amp; Systems, IET</JOURNAL>
+	<VOLUME>4</VOLUME>
+	<NUMBER>2</NUMBER>
+	<PAGES>99-112</PAGES>
+	<MONTH>March</MONTH>
+	<YEAR>2010</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>Profile-Based Dynamic Pipeline Scaling</TITLE>
+	<AUTHOR>Kuan-Wei Cheng, Tzong-Yen Lin, and Rong-Guey Chang</AUTHOR>
+	<JOURNAL>Journal of Supercomputing</JOURNAL>
+	<VOLUME>48</VOLUME>
+	<NUMBER>2</NUMBER>
+	<PAGES>210-226</PAGES>
+	<MONTH>May</MONTH>
+	<YEAR>2009</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>Design and Implementation of A Hardware and Software Cosimulator for OpenRISC OR1200 Processor</TITLE>
+	<AUTHOR>Chih-Yuan Chen, Tzong-Yen Lin, and Rong-Guey Chang</AUTHOR>
+	<JOURNAL>IICM: Institute of Information &amp; Computing Machinery Communication</JOURNAL>
+	<VOLUME>11</VOLUME>
+	<NUMBER>3</NUMBER>
+	<PAGES>57-73</PAGES>
+	<MONTH>September</MONTH>
+	<YEAR>2008</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>Code Size Reduction by Compressing Repeated Instruction Sequences</TITLE>
+	<AUTHOR>Shao-Yang Wang, and Rong-Guey Chang</AUTHOR>
+	<JOURNAL>Journal of Supercomputing</JOURNAL>
+	<VOLUME>40</VOLUME>
+	<NUMBER>3</NUMBER>
+	<PAGES>319-331</PAGES>
+	<MONTH>June</MONTH>
+	<YEAR>2007</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>Supports and Optimizations for Parallel Sparse Programs with Array Intrinsics of Fortran90</TITLE>
+	<AUTHOR>Rong-Guey Chang, Tyng-Ruey Chuang, and Jenq Kuen Lee</AUTHOR>
+	<JOURNAL>Parallel Computing</JOURNAL>
+	<VOLUME>30</VOLUME>
+	<NUMBER>4</NUMBER>
+	<PAGES>527-550</PAGES>
+	<MONTH>April</MONTH>
+	<YEAR>2004</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>Parallel Sparse Supports for Array Intrinsic Functions of Fortran 90</TITLE>
+	<AUTHOR>Rong-Guey Chang, Tyng-Ruey Chuang, and Jenq Kuen Lee</AUTHOR>
+	<JOURNAL>Jornal of Supercomputing</JOURNAL>
+	<VOLUME>18</VOLUME>
+	<NUMBER>3</NUMBER>
+	<PAGES>305-339</PAGES>
+	<MONTH>March</MONTH>
+	<YEAR>2001</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>Toward Automatic Support of Parallel Sparse Computation in Java with Continuous Compilations</TITLE>
+	<AUTHOR>Rong-Guey Chang, Cheng-Wei Chen, Tyng-Ruey Chuang, and Jenq Kuen Lee</AUTHOR>
+	<JOURNAL>Concurrency: Practice and Experiences</JOURNAL>
+	<VOLUME>9</VOLUME>
+	<NUMBER>11</NUMBER>
+	<PAGES>1101-1111</PAGES>
+	<MONTH>November</MONTH>
+	<YEAR>1997</YEAR>
+	<NOTE></NOTE>
+</JP>
+<JP>
+	<TITLE>Global and Coglobal Languages</TITLE>
+	<AUTHOR>Rong-Guey Chang, and Hui-Jran Shyr</AUTHOR>
+	<JOURNAL>Algebra Colloquium</JOURNAL>
+	<VOLUME>2</VOLUME>
+	<NUMBER>1</NUMBER>
+	<PAGES>11-22</PAGES>
+	<MONTH>March</MONTH>
+	<YEAR>1995</YEAR>
+	<NOTE></NOTE>
+</JP>
+<!--  
+                      會議論文
+-->
+<CP>
+    <TITLE>An Adaptive Zero-Copy Strategy for Ubiquitous High Performance Computing</TITLE>
+    <AUTHOR>Ting-Hsuan Chien, Chia-Jung Chen, and Rong-Guey Chang</AUTHOR>
+    <BOOKTITLE>The 21st European MPI Users' Group Meeting (EuroMPI/ASIA '14)</BOOKTITLE>
+    <LOCATION>Kyoto, Japan</LOCATION>
+    <DATE>9-12</DATE>
+    <MONTH>September</MONTH>
+    <YEAR>2014</YEAR>
+    <NOTE></NOTE>
+  </CP>
+<CP>
+	<TITLE>Source-Level Thermal Detection</TITLE>
+	<AUTHOR>Jen-Chieh Chang, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 2014 Annual Conferece on Engineering and Information Technology (ACEAIT 2014)</BOOKTITLE>
+	<LOCATION>Tokyo, Japan</LOCATION>
+	<DATE>28-30</DATE>
+	<MONTH>March</MONTH>
+	<YEAR>2014</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Thermal-Aware Scheduling Collaborating with OS and Architecture</TITLE>
+	<AUTHOR>Cheng-Yu Lee, Shuang-Jhu Yang, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 2013 International Workshop on Embedded Multicore Systems (ICPP-EMS 2013)</BOOKTITLE>
+	<LOCATION>Lyon, France</LOCATION>
+	<DATE>1-4</DATE>
+	<MONTH>October</MONTH>
+	<YEAR>2013</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Efficient Web-Learning Collision Detection Tool on Five-Axis Machine</TITLE>
+	<AUTHOR>Chia-Jung Chen, Rong-Shine Lin and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 2013 International conference on mechanical and mechatronics engineering (ICMME-2013)</BOOKTITLE>
+	<LOCATION>Singapore</LOCATION>
+	<DATE>4-5</DATE>
+	<MONTH>July</MONTH>
+	<YEAR>2013</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Low Power Compiler Optimization for Pipelining Scaling</TITLE>
+	<AUTHOR>Jen-Chieh Chang, Cheng-Yu Lee, Chia-Jung Chen, Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>International Computer Symposium (ICS 2012)</BOOKTITLE>
+	<LOCATION>Hualien, Taiwan</LOCATION>
+	<DATE>12-14</DATE>
+	<MONTH>December </MONTH>
+	<YEAR>2012</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>DCSim:Design analysis on Virtualization Data Center</TITLE>
+	<AUTHOR>Chia-Jung Chen and Yi-Sheng Liu, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 2012 International Workshop on Infrastructure, Technologies and Applications for Distributed Data Collection, Processing, and Dissemination (DDCPD 2012)</BOOKTITLE>
+	<LOCATION>Fukuoka, Japan</LOCATION>
+	<DATE>4-7</DATE>
+	<MONTH>September</MONTH>
+	<YEAR>2012</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Compiler Optimization to Reduce Cache Power with Victim Cache</TITLE>
+	<AUTHOR>Cheng-Yu Lee, Jen-Chieh Chang, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 2012 International Workshop on Embedded Intelligence and Smart Systems (WEISS 2012)</BOOKTITLE>
+	<LOCATION>Fukuoka, Japan</LOCATION>
+	<DATE>4-7</DATE>
+	<MONTH>September</MONTH>
+	<YEAR>2012</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Compiler Support for Concurrency Synchronization</TITLE>
+	<AUTHOR>Tzong-Yen Lin, Cheng-Yu Lee, Chia-Jung Chen, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>the 11th International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP 2011)</BOOKTITLE>
+	<LOCATION>Melbourne, Australia</LOCATION>
+	<DATE>24-26</DATE>
+	<MONTH>October</MONTH>
+	<YEAR>2011</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Thermal-aware Code Transformation across Functional Units</TITLE>
+	<AUTHOR> Chia-Jung Chen, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 9th IEEE/IFIP International Conference on Embedded and Ubiquitous Computing (EUC 2011)</BOOKTITLE>
+	<LOCATION>Melbourne, Australia</LOCATION>
+	<DATE>24-26</DATE>
+	<MONTH>October</MONTH>
+	<YEAR>2011</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Wireless Smooth Data Streaming on Application Layer</TITLE>
+	<AUTHOR> Chia-Jung Chen, Rong-Guey Chang, and Chih-Wen Hsueh</AUTHOR>
+	<BOOKTITLE>The 2011 International Symposium on Embedded and Pervasive Systems (EPS 2011)</BOOKTITLE>
+	<LOCATION>Melbourne, Australia</LOCATION>
+	<DATE>24-26</DATE>
+	<MONTH>October</MONTH>
+	<YEAR>2011</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Inline Emulation for Paravirtualization Environment on Embedded Systems</TITLE>
+	<AUTHOR>Yuan-Cheng Lee, Chih-Wen Hsueh, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 17th IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA 2011)</BOOKTITLE>
+	<LOCATION>Toyama, Japan</LOCATION>
+	<DATE>28-31</DATE>
+	<MONTH>August</MONTH>
+	<YEAR>2011</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Trading Conditional Execution for More Registers on ARM Processors</TITLE>
+	<AUTHOR>Huang-Jia Cheng, Yuan-Shin Hwang, Rong-Guey Chang, and Cheng-Wei Chen</AUTHOR>
+	<BOOKTITLE>The 2010 IEEE/IFIP International Conference on Embedded and Ubiquitous Computing (EUC 2010)</BOOKTITLE>
+	<LOCATION>Hong Kong SAR, China</LOCATION>
+	<DATE>11-13</DATE>
+	<MONTH>December</MONTH>
+	<YEAR>2010</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Thermal-Aware Register Allocation with Loop-Unrolling</TITLE>
+	<AUTHOR>Tzong-Yen Lin, Cheng-Yu Lee, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 2010 International Conference on Computer Design and Applications (ICCDA 2010)</BOOKTITLE>
+	<LOCATION>Qinhuangdao, China</LOCATION>
+	<DATE>25-27</DATE>
+	<MONTH>June</MONTH>
+	<YEAR>2010</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Automatic Synthesis from System-Level to Op-Amp Sizing for Sigma-Delta Modulators with MATLAB</TITLE>
+	<AUTHOR>陳志遠, 洪家華, 張建文,張榮貴, 李順裕</AUTHOR>
+	<BOOKTITLE>MATLAB &amp; Simulink Tech Forum and Expo 2009, 第三名</BOOKTITLE>
+	<LOCATION></LOCATION>
+	<DATE>20</DATE>
+	<MONTH>October</MONTH>
+	<YEAR>2009</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Stability Analysis and System Design of Sigma-Delta Modulators</TITLE>
+	<AUTHOR>Chih-Yuan Chen, Rong-Guey Chang, and Shuenn-Yuh Lee</AUTHOR>
+	<BOOKTITLE>The 12th International Symposium on Integrated Circuits (ISIC 2009)</BOOKTITLE>
+	<LOCATION>Suntec Singapore International Convention &amp; Exhibition Centre, Singapore</LOCATION>
+	<DATE>14-16</DATE>
+	<MONTH>December</MONTH>
+	<YEAR>2009</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>A Portable and Efficient User Dispatching Mechanism for Multicore Systems</TITLE>
+	<AUTHOR>Tang-Hsun Tu, Chih-Wen Hsueh, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 15th IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA 2009)</BOOKTITLE>
+	<LOCATION>Beijing, China</LOCATION>
+	<DATE>24-26</DATE>
+	<MONTH>August</MONTH>
+	<YEAR>2009</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Compiler Support for Dynamic Pipeline Scaling</TITLE>
+	<AUTHOR>Kuan-Wei Cheng, Tzong-Yen Lin, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 2007 IFIP International Conference on Embedded and Ubiquitous Computing (EUC 2007)</BOOKTITLE>
+	<LOCATION>Taipei, Taiwan</LOCATION>
+	<DATE>17-20</DATE>
+	<MONTH>December</MONTH>
+	<YEAR>2007</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>An Adaptive Sigma-Delta Modulator with Improved Dynamic Range</TITLE>
+	<AUTHOR>Chih-Yuan Chen, Tai-Yue Wang, Shuenn-Yuh Lee, Rong-Guey Chang, and Tsung-Heng Tsai</AUTHOR>
+	<BOOKTITLE>The Fifth IASTED International Conference on Circuits, Signals, and Systems (CSS 2007)</BOOKTITLE>
+	<LOCATION>Banff, Alberta, Canada</LOCATION>
+	<DATE>2-4</DATE>
+	<MONTH>July</MONTH>
+	<YEAR>2007</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Optimizing Code Size for Embedded Real-Time Applications</TITLE>
+	<AUTHOR>Shao-Yang Wang, Chih-Yuan Chen, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 2006 IFIP International Conference on Embedded and Ubiquitous Computing (EUC 2006)</BOOKTITLE>
+	<LOCATION>Seoul, Korea</LOCATION>
+	<DATE>1-4</DATE>
+	<MONTH>August</MONTH>
+	<YEAR>2006</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Power-Aware Instruction Scheduling</TITLE>
+	<AUTHOR>Tzong-Yen Lin, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 2006 IFIP International Conference on Embedded and Ubiquitous Computing (EUC 2006)</BOOKTITLE>
+	<LOCATION>Seoul, Korea</LOCATION>
+	<DATE>1-4</DATE>
+	<MONTH>August</MONTH>
+	<YEAR>2006</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Efficient Hardware/Software Partitioning Approach for Embedded Multiprocessor Systems</TITLE>
+	<AUTHOR>Tzong-Yen Lin, Lan-Hsin Lin, and Rong-Guey Chang</AUTHOR>
+	<BOOKTITLE>The 2006 International Symposium on VLSI Design, Automation &amp; Test (VLSI-DAT 2006)</BOOKTITLE>
+	<LOCATION>Hsinchu, Taiwan</LOCATION>
+	<DATE>26-28</DATE>
+	<MONTH>April</MONTH>
+	<YEAR>2006</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>OpenRISC OR1200處理器軟硬體共同模擬平台的研究與實作</TITLE>
+	<AUTHOR>徐秉毅, 薛琮樺, 何梓薇, 林修鴻, 張榮貴</AUTHOR>
+	<BOOKTITLE>2005開放源碼研討會, 最佳論文獎 佳作</BOOKTITLE>
+	<LOCATION></LOCATION>
+	<DATE></DATE>
+	<MONTH></MONTH>
+	<YEAR></YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Probabilistic inference schemes for sparsity structures of Fortran 90 array intrinsics</TITLE>
+	<AUTHOR>Rong-Guey Chang, Jia-Shing Li, Tyng-Ruey Chuang, and Jenq Kuen Lee</AUTHOR>
+	<BOOKTITLE>the 30th International Conference on Parallel Processing</BOOKTITLE>
+	<LOCATION>Valencia, Spain</LOCATION>
+	<DATE></DATE>
+	<MONTH>September</MONTH>
+	<YEAR>2001</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Performance of Parallel Sparse Supports for Fortran 90 on PC-based Networks of  Clusters</TITLE>
+	<AUTHOR>Rong-Guey Chang, Xing-Yang Jiang, Tyng-Ruey Chuang, and Jenq Kuen Lee</AUTHOR>
+	<BOOKTITLE>High-Performance Computing</BOOKTITLE>
+	<LOCATION>Washington DC, USA</LOCATION>
+	<DATE></DATE>
+	<MONTH></MONTH>
+	<YEAR>2000</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Compiler Optimizations for Parallel Sparse Programs with Array Intrinsics of Fortran 90</TITLE>
+	<AUTHOR>Rong-Guey Chang, Tyng-Ruey Chuang, and Jenq Kuen Lee</AUTHOR>
+	<BOOKTITLE>the 28th International Conference on Parallel Processing</BOOKTITLE>
+	<LOCATION>Aizu-Wakamatsu, Fukushima, Japan</LOCATION>
+	<DATE></DATE>
+	<MONTH>September</MONTH>
+	<YEAR>1999</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Efficient Support of Parallel Sparse Computation for Array Intrinsic Functions of Fortran 90</TITLE>
+	<AUTHOR>Rong-Guey Chang, Tyng-Ruey Chuang, and Jenq Kuen Lee</AUTHOR>
+	<BOOKTITLE>the 12th ACM International Conference on Supercomputing</BOOKTITLE>
+	<LOCATION>Melbourne, Australia</LOCATION>
+	<DATE></DATE>
+	<MONTH>July</MONTH>
+	<YEAR>1998</YEAR>
+	<NOTE></NOTE>
+</CP>
+<CP>
+	<TITLE>Sampling and Analytical Techniques for Data Distribution of Parallel Sparse Computation</TITLE>
+	<AUTHOR>Tyng-Ruey Chuang, Rong-Guey Chang, and Jenq Kuen Lee</AUTHOR>
+	<BOOKTITLE>the 8th SIAM Conference on Parallel Processing for Scientific Computing</BOOKTITLE>
+	<LOCATION>Minnesota, USA</LOCATION>
+	<DATE></DATE>
+	<MONTH>March</MONTH>
+	<YEAR>1997</YEAR>
+	<NOTE></NOTE>
+</CP>
+</PAPER>

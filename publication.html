@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>著作 - 張榮貴教授</title>
+	<link rel="stylesheet" type="text/css" href="main.css" charset="UTF-8"  />
+</head>
+<body>
+	<div id="main">
+		<div id="top"></div>
+		<div id="nav"></div>
+		<div id="outer">
+			<div id="nav_side"></div>
+			<div id="content">
+				<noscript>Your browser does not support JavaScript!</noscript>
+				<div style="text-align: right; height: 0px">
+					Search text:
+					<input type="text" onchange="search();" id="search_in" />
+				</div>
+				<div>
+					<h1>Jounal papers</h1>
+					<ol id="jp_out" />   
+				</div>
+				<div>
+					<h1>Conference papers</h1>
+					<ol id="cp_out" />   
+				</div>
+			</div>
+			<div  id="lastupdated">Last updated: August 8, 2012</div>
+		</div>
+	</div>
+
+    <script type="text/javascript" src="main.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="nav.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="paper.js" charset="UTF-8"></script>
+    <script type="text/javascript">
+var xmlDoc = openXML("paper.xml");
+var jp = xmlDoc.getElementsByTagName("JP");
+var cp = xmlDoc.getElementsByTagName("CP");
+var jpList = [];
+var cpList = [];
+var d = new htmlDisplayControlCollectionObj();
+
+for (var i = 0; i < jp.length; i+=1)
+{
+	var paper = new xmlJournalPaperObj(jp[i]); 
+	paper.setFormatFunction(formatIEEE2006jour);
+	paper.author = paper.author.replace("Rong-Guey Chang", "<span class='rgc'>Rong-Guey Chang</span>");
+	jpList.push(paper);
+}
+
+for (var i = 0; i < cp.length; i+=1)
+{
+	var paper = new xmlConferencePaperObj(cp[i]); 
+	paper.setFormatFunction(formatIEEE2006conf);
+	paper.author = paper.author.replace("Rong-Guey Chang", "<span class='rgc'>Rong-Guey Chang</span>");
+	paper.author = paper.author.replace("張榮貴", "<span class='rgc'>張榮貴</span>");
+	cpList.push(paper);
+}
+
+fillHTML();
+
+//// write data to HTML
+function fillHTML()
+{
+	var jp_out  = document.getElementById("jp_out");
+	jp_out.innerHTML = "";
+	build(jpList, jp_out);
+	
+	var cp_out  = document.getElementById("cp_out");
+	cp_out.innerHTML = "";
+	build(cpList, cp_out);
+}
+
+function build(data, out)
+{
+	for (var i in data)
+	{
+		var li = document.createElement("li");
+		li.innerHTML = data[i].toString();
+		out.appendChild(li);
+		// control display
+		d.add(li);
+	}
+}
+
+// search & display control
+function checkFunc(e)
+{
+	var sstr = document.getElementById("search_in").value.toLowerCase();
+	return (sstr == "" || e.innerHTML.toLowerCase().search(sstr) != -1)
+}
+
+function search()
+{
+	d.checkAndSetDisplay(checkFunc);
+}
+    </script>
+</body>
+</html>
+

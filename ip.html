@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IP list</title>	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="main.css" charset="UTF-8" />
+	<style type="text/css">
+table{
+	width: 90%;
+	border-top:   1px solid #eee;
+	border-right: 1px solid #eee;
+	margin: 1em auto;
+	border-collapse:collapse;
+}
+td{
+	color: #678197;
+	border-bottom: 1px solid #eee;
+	border-left:   1px solid #eee;
+	padding:.3em 1em;
+	text-align:center;
+}
+tr.odd td{
+	background: #eee;
+}
+th{
+	background: #eee;
+	text-align: center;
+	border-bottom:1px solid #eee;
+	border-left:  1px solid #eee;
+	color:#4683b3;
+}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<div id="top"></div>
+		<div id="nav"></div>
+		<div id="outer">
+			<div id="nav_side"></div>
+			<div id="content">
+				<noscript>Your browser does not support JavaScript!</noscript>
+				<h1>IP address</h1>
+				<table id="ip_out">
+					<tr>
+						<th>IP address</th>
+						<th>Domain name</th>
+						<th>Status</th>
+					</tr>
+				</table>
+			</div>
+			<div  id="lastupdated">Last updated: August 8, 2012</div>
+		</div>		
+	</div>
+
+<script type="text/javascript" src="main.js" charset="utf-8"></script>
+<script type="text/javascript" src="nav.js" charset="utf-8"></script>
+<script type="text/javascript">
+var xmlDoc = openXML("ip.xml");
+var ipl = xmlDoc.getElementsByTagName("ITEM");
+
+var table = document.getElementById("ip_out");
+for (var i = 0; i < ipl.length; i++)
+{
+	var ip = GE(ipl[i], "IP");
+	var dn = GE(ipl[i], "DN");
+	var comment = GE(ipl[i], "COMMENT");
+
+	var row = table.insertRow(-1);
+	if (i%2 == 1)   { row.setAttribute("class","odd");}
+
+	var cell1=row.insertCell(0);
+	var cell2=row.insertCell(1);
+	var cell3=row.insertCell(2);
+
+	cell1.innerHTML = ip;
+	cell2.innerHTML = dn;
+	cell3.innerHTML = (comment.length != 0 ? "used": "" );
+}
+
+
+</script>
+</body>
+</html>

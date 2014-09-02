@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<title>研究計畫 - 張榮貴教授</title>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<style type="text/css">
+table{
+	width: 90%;
+	border-top:   1px solid SlateGray;
+	border-right: 1px solid SlateGray;
+	margin: 1em auto;
+}
+td{
+	color: DarkSlateGray;
+	border-bottom: 1px solid SlateGray;
+	border-left:   1px solid SlateGray;
+	padding:.3em 1em;
+	text-align: left;
+}
+tr.odd td{
+	background: SlateGray;
+}
+th{
+	background: SlateGray;
+	text-align: center;
+	border-bottom:1px solid SlateGray;
+	border-left:  1px solid SlateGray;
+	color: Snow;
+}
+</style>
+</head>
+<body>
+	<div id="main">
+		<div id="top"></div>
+		<div id="nav"></div>
+		<div id="outer">
+			<div id="nav_side"></div>
+			<div id="content">
+				<noscript>Your browser does not support JavaScript!</noscript>
+				<div id="nsc">
+					<h1>國科會計畫</h1>
+					目前顯示:
+					<a id="display" style="background: Moccasin;" onclick="toggleDisplayMode();">簡單</a>
+					<div style="text-align: right; height: 0px; float:right;">
+						<a class="external" style="font-size: small;" href="https://nscnt12.nsc.gov.tw/was2/award/AsAwardMultiQuery.aspx">國科會學術補助查詢</a>
+					</div>
+					<table id="nsc_out"></table>
+				</div>
+			</div>
+			<div id="lastupdated">Last updated: August 8, 2012</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="main.js" charset="utf-8"></script>
+<script type="text/javascript" src="nav.js" charset="utf-8"></script>
+<script type="text/javascript">
+var xmlDoc = openXML("nsc_project.xml");
+var ln = xmlDoc.getElementsByTagName("nsc");
+var detailElement;
+var displayMode = 0;
+initTable();
+
+function toggleDisplayMode()
+{
+  displayMode = (displayMode + 1) % 2;
+
+  for (var i in detailElement)
+    detailElement[i].style.display = displayMode == 1 ? "inline" :　"none";
+
+  document.getElementById("display").innerHTML = displayMode == 1 ? "全部" : "簡單";
+  
+}
+
+function initTable()
+{
+  // [ TEXT, width, textAlign ]
+  var th_info = [
+  ["年度", "60px", "center"],
+  ["計畫名稱", "auto", "center"],
+  ["期間", "150px", "center"]
+  ];
+  var out  = document.getElementById("nsc_out");
+
+  var tr = document.createElement("tr");
+  for (var i in th_info)
+  {
+    var th = createElement_T_C("th", th_info[i][0], "");
+    th.style.width = th_info[i][1];
+    th.style.textAlign = th_info[i][2];
+    tr.appendChild(th);
+  }
+  out.appendChild(tr);
+  detailElement = createNSC(ln, out);
+}
+
+function createNSC(data, out)
+{
+  var ul_list = [];
+  for (var i = 0; i <data.length; i++)
+  {
+    var year        = data[i].getAttribute("year");
+    var name        = GE(data[i], "name");
+    var durations  = data[i].getAttribute("from") + " - " + data[i].getAttribute("to");
+    
+    var tr = document.createElement("tr");
+    tr.appendChild(createElement_T_C("th", year, ""));
+    var tdn = createElement_T_C("td", name, "");
+    tr.appendChild(tdn);
+    tr.appendChild(createElement_T_C("td", durations, ""));
+
+    var lip = data[i].getElementsByTagName("project");
+    if (lip.length > 1)
+    {
+      var ul =  document.createElement("span");	  
+      for (var j = 0; j < lip.length; j++)
+      {
+        var txt = "";
+        var prog_name = GE(lip[j], "name");
+        var year      = lip[j].getAttribute("year");
+        var durations = lip[j].getAttribute("from") + " - " + lip[j].getAttribute("to");
+        prog_name = prog_name.replace(name, "");
+        txt = prog_name + " " + year + "年度: " + durations;
+
+        ul.appendChild(createElement_T_C("li", txt, ""));
+      }
+      tdn.appendChild(ul);
+      ul.style.display = "none";
+      ul_list.push(ul);
+    }
+    out.appendChild(tr);
+  }
+  return ul_list;
+}
+
+function createElement_T_C(element, text, className)
+{
+  var ele = document.createElement(element);
+  ele.innerHTML = text;
+  ele.setAttribute("class", className);
+  ele.setAttribute("className", className);
+  return ele;
+}
+   
+</script>
+</body>
+</html>

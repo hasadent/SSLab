@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>系統軟體實驗室</title>
+	<link rel="stylesheet" type="text/css" href="main.css" charset="UTF-8"  />
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+</head>
+<body>
+	<div id="main">
+		<div id="top"></div>
+		<div id="nav"></div>
+		<div id="outer">
+			<div id="nav_side"></div>
+			<div id="content">
+				<noscript>Your browser does not support JavaScript!</noscript>
+				<h1>實驗室資訊</h1>				
+				<ul>
+					<li>位置: 工學院一館301A (<a class="external" href="http://ccuweb.ccu.edu.tw/gis/browserMap.php">校園地圖</a>)</li>
+					<li>電話: 05-2720411 分機 23122</li>
+					<li>成員: 目前有3位博士生以及8位碩士生，請見實驗室成員。	</li>
+			
+				</ul>
+				<h2>校內交通方式</h2>
+				<div id="map" style="width: 80%">
+                    <form style="width: 25%" action="">
+                        <input type="radio" id="gr0" name="t" onclick="test0();" />
+                        <span id="gr0t" style="font-size: smaller;">開車</span>
+                        <input type="radio" id="gr1" name="t" onclick="test1();" />
+                        <span id="gr1t" style="font-size: smaller;">步行</span>
+                    </form>
+					<div>
+						<table border="1" style="width: 100%; text-align: center; border: 1px; border-collapse: collapse; display: table; border-spacing: 2px; border-color: gray;">
+							<tbody>
+							<tr>
+								<th>圖例</th>
+								<th><img src="map-images/entrance.png" width="22" /></th>
+								<th><img src="map-images/lab.png" width="22" /></th>
+								<th><img src="map-images/park.png" width="22" /></th>
+							</tr>
+							<tr>
+								<th>項目</th>
+								<td>學校大門</td>
+								<td>實驗室</td>
+								<td>停車場</td>
+							</tr>
+							</tbody>								
+						</table>
+					</div>	
+					<div id="map-canvas" style="width: 100%; height: 512px; "></div>
+				</div>				
+			</div>
+		</div>
+	</div>
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+    <script type="text/javascript" src="nav.js" charset="utf-8"></script>
+    <script type="text/javascript" src="map_301.js" charset="utf-8"></script>
+</body>
+</html>

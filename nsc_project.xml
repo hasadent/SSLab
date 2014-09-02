@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<all>
+  <nsc year="101" duration="3" from="2012" to="2015">
+    <name>多核心處理器電量模型</name>
+    <project year="101" duration="1" from="2012/08" to="2013/07"><name>多核心處理器電量模型</name></project>
+  </nsc>
+  <nsc year="101" duration="3" from="2012" to="2015">
+    <name>針對SSD/HDD以及PCM先進記憶體最佳化技術</name>
+    <project year="101" duration="1" from="2012/08" to="2013/07"><name>針對SSD/HDD以及PCM先進記憶體最佳化技術</name></project>
+  </nsc>
+  <nsc year="100" duration="1" from="2011/08" to="2012/07">
+    <name>智慧型親友日誌資料管理(I)</name>
+    <project year="100" duration="1" from="2011/08" to="2012/07"><name>智慧型親友日誌資料管理(I)</name></project>
+  </nsc>
+  <nsc year="98" duration="2" from="2009/08" to="2011/10">
+    <name>子計畫三：俱多線程函示庫之Criti-Core高可靠度與省電控溫系統軟體技術開發</name>
+    <project year="99" duration="1" from="2010/08" to="2011/10"><name>子計畫三：俱多線程函示庫之Criti-Core高可靠度與省電控溫系統軟體技術開發(2/2)</name></project>
+    <project year="98" duration="1" from="2009/08" to="2010/07"><name>子計畫三：俱多線程函示庫之Criti-Core高可靠度與省電控溫系統軟體技術開發(1/2)</name></project>
+  </nsc>
+  <nsc year="97" duration="1" from="2008/08" to="2009/07">
+    <name>GCC為基礎的跨平台二元程式碼轉譯平台</name>
+    <project year="97" duration="1" from="2008/08" to="2009/07"><name>GCC為基礎的跨平台二元程式碼轉譯平台</name></project>
+  </nsc>
+  <nsc year="95" duration="3" from="2006/08" to="2009/07">
+    <name>子計畫四：貼心處理器II之軟體支援工具技術研發</name>
+    <project year="97" duration="1" from="2008/08" to="2009/07"><name>子計畫四：貼心處理器II之軟體支援工具技術研發(3/3)</name></project>
+    <project year="96" duration="1" from="2007/08" to="2008/07"><name>子計畫四：貼心處理器II之軟體支援工具技術研發(2/3)</name></project>
+    <project year="95" duration="1" from="2006/08" to="2007/07"><name>子計畫四：貼心處理器II之軟體支援工具技術研發(1/3)</name></project>
+  </nsc>
+  <nsc year="92" duration="3" from="2003/08" to="2006/08">
+    <name>子計畫三：應用於晶片系統中超低功率處理器之編譯器最佳化設計</name>
+    <project year="94" duration="1" from="2005/08" to="2006/08"><name>子計畫三：應用於晶片系統中超低功率處理器之編譯器最佳化設計(3/3)</name></project>
+    <project year="93" duration="1" from="2004/08" to="2005/07"><name>子計畫三：應用於晶片系統中超低功率處理器之編譯器最佳化設計(2/3)</name></project>
+    <project year="92" duration="1" from="2003/08" to="2004/07"><name>子計畫三：應用於晶片系統中超低功率處理器之編譯器最佳化設計(1/3)</name></project>
+  </nsc>
+  <nsc year="92" duration="3" from="2003/08" to="2006/07">
+    <name>子計畫二：晶片系統之貼心(UniCore)處理器之軟體開發平台暨編譯</name>
+    <project year="94" duration="1" from="2005/08" to="2006/07"><name>子計畫二：晶片系統之貼心(UniCore)處理器之軟體開發平台暨編譯(3/3)</name></project>
+    <project year="93" duration="1" from="2004/08" to="2005/07"><name>子計畫二：晶片系統之貼心(UniCore)處理器之軟體開發平台暨編譯(2/3)</name></project>
+    <project year="92" duration="1" from="2003/08" to="2004/07"><name>子計畫二：晶片系統之貼心(UniCore)處理器之軟體開發平台暨編譯(1/3)</name></project>
+  </nsc>
+  <nsc year="91" duration="1" from="2002/08" to="2003/07">
+    <name>單晶片設計二元程式碼壓縮技術之開發</name>
+    <project year="91" duration="1" from="2002/08" to="2003/07"><name>單晶片設計二元程式碼壓縮技術之開發</name></project>
+  </nsc>
+</all>

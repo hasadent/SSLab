@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<title>成員 - 系統軟體實驗室</title>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<style type="text/css">
+table#phd, table#master{
+	width: 90%;
+	border-top:   1px solid SlateGray;
+	border-right: 1px solid SlateGray;
+
+	margin: 1em auto;
+}
+table#phd td, table#master td{
+	color: DarkSlateGray;
+	border-bottom: 1px solid SlateGray;
+	border-left:   1px solid SlateGray;
+	padding:.3em 1em;
+	text-align: left;
+}
+table#phd th, table#master th{
+	background-color: SlateGray;
+	text-align: center;
+	border-bottom: 1px solid SlateGray;
+	border-left:   1px solid SlateGray;
+	color: Snow;
+}
+#gr0t {
+	background-color: LightYellow;
+	color: inherit;
+}
+#gr1t {
+	background-color: LightCyan;
+	color: inherit;
+}
+</style>
+</head>
+<body>
+	<div id="main">
+		<div id="top"></div>
+		<div id="nav"></div>
+		<div id="outer">
+			<div id="nav_side"></div>
+			<div id="content">
+				<noscript>Your browser does not support JavaScript!</noscript>
+				<form action="">
+					<input type="checkbox" id="gr0" onclick="applyDisplayMode();" />
+					<span id="gr0t" style="font-size: smaller;">目前成員</span>
+					<input type="checkbox" id="gr1" onclick="applyDisplayMode();" />
+					<span id="gr1t" style="font-size: smaller;">畢業成員</span>
+				</form>
+				<h1>博士班成員</h1>
+				<table id="phd"></table>
+				<h1>碩士班成員</h1>
+				<table id="master"></table>
+			</div>
+			<div id="lastupdated">Last updated: August 16, 2012</div>
+		</div>
+	</div>
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+    <script type="text/javascript" src="nav.js" charset="utf-8"></script>
+    <script type="text/javascript" src="member.js" charset="utf-8"></script>
+    <script type="text/javascript">
+var xmlDoc = openXML("member.xml");
+var ml = xmlDoc.getElementsByTagName("group");
+var groupList = [];
+for (var i = 0; i < ml.length; i++)
+{
+	var group = new xmlGroupObj(ml[i]);
+	groupList.push(group);
+}
+
+//// HTML
+function setStyle(th, styles){
+	th.style.width     = styles[0];
+	th.style.textAlign = styles[1];
+}
+var bgColor = ["LightYellow", "LightCyan", ""];
+var textAndStyle = [
+	["年度",      ["60px", "center"]],
+	["成員/資訊", ["auto", "center"]],
+];
+
+tableCreateFirstRow(document.getElementById("phd"), textAndStyle, setStyle);
+tableCreateFirstRow(document.getElementById("master"), textAndStyle, setStyle);
+var ds = [new htmlDisplayControlCollectionObj(),
+	new htmlDisplayControlCollectionObj(),
+	new htmlDisplayControlCollectionObj()];
+buildTable();
+loadFromCockie();
+applyDisplayMode();
+
+//// HTML function
+function buildTable()
+{
+	for (var i in groupList)
+	{
+	    var out = document.getElementById(groupList[i].degree);
+
+	    var span_num = 0;
+	    var lasty = -1;
+	    var lastg = -1;
+
+        for (var j in groupList[i].members)
+        {
+            var member = groupList[i].members[j];
+
+            span_num = 1;
+            if (lasty != member.year || lastg != member.graduate)
+            {
+                var k = parseInt(j) + 1;
+                while (k < groupList[i].members.length
+                    && groupList[i].members[k].year == member.year
+                    && groupList[i].members[k].graduate == member.graduate)
+                    k++;
+
+                span_num = k - parseInt(j);
+            }
+
+            var tr = document.createElement("tr");
+            out.appendChild(tr);
+
+            var e = member.createElements(["th", "div"]);
+            e[1].style.float = "left";
+            
+            if (lasty != member.year || lastg != member.graduate)
+            {
+                e[0].setAttribute("rowspan", span_num);
+                tr.appendChild(e[0]);                
+            }
+            lasty = member.year;
+            lastg = member.graduate;
+
+            var td = document.createElement("td");
+            td.style.backgroundColor = bgColor[member.graduate];
+            td.appendChild(e[1]);
+            tr.appendChild(td);
+
+            var div = document.createElement("div");
+            div.style.float = "left";
+            td.appendChild(div);
+
+            var ul = document.createElement("ul");
+            ul.style.fontSize = "smaller";
+            ul.style.margin = "2px 0px 2px 0px";
+            div.appendChild(ul);
+
+            if (member.graduate == 1) {
+                if (member.thesis != undefined)
+                    ul.appendChild(member.thesis.createElement("li"));
+                if (member.status != undefined)
+                    ul.appendChild(member.status.createElement("li"));
+            }
+
+            // for controlling display 
+            if (0 <= groupList[i].members[j].graduate && groupList[i].members[j].graduate <= 2)
+                ds[groupList[i].members[j].graduate].add(tr);
+        }
+        
+	}
+}
+
+//// display control
+function applyDisplayMode()
+{
+	var gr = [
+	function () {return document.getElementById("gr0").checked; },
+	function () {return document.getElementById("gr1").checked; },
+	function () {return false; }
+	]
+
+	for (var i in  ds)
+		ds[i].checkAndSetDisplay(gr[i]);
+
+	setCookie("memgr0", gr[0]()?1:0);
+	setCookie("memgr1", gr[1]()?1:0);
+}
+
+function loadFromCockie()
+{
+	var x0 = getCookie("memgr0");
+	var x1 = getCookie("memgr1");
+	document.getElementById("gr0").checked = x0 != undefined ? x0==1 : true;
+	document.getElementById("gr1").checked = x1 != undefined ? x1==1 : false;
+}
+    </script>
+</body>
+</html>
